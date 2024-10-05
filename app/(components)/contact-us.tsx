@@ -42,19 +42,19 @@ export default function ContactUs() {
                             <label htmlFor="name" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                                 Name
                             </label>
-                            <Input id="name" name="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} requigreen />
+                            <Input id="name" name="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} required />
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="email" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                                 Email
                             </label>
-                            <Input id="email" name="email" type="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} requigreen />
+                            <Input id="email" name="email" type="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} required />
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="message" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                                 Message
                             </label>
-                            <Textarea id="message" name="message" placeholder="Enter your message" value={formData.message} onChange={handleChange} requigreen />
+                            <Textarea id="message" name="message" placeholder="Enter your message" value={formData.message} onChange={handleChange} required />
                         </div>
                         <Button type="submit" className="w-full bg-green-600">
                             Send Message
