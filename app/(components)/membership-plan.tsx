@@ -59,7 +59,7 @@ export default function MembershipPlans() {
                                 </ul>
                             </CardContent>
                             <CardFooter>
-                                <Button className={`w-full hover:bg-green-500 ${index === 1 ? "bg-green-600" : ""}`} variant={index === 1 ? "default" : "outline"}>
+                                <Button className={`w-full hover:bg-green-500 hover:text-white ${index === 1 ? "bg-green-600" : ""}`} variant={index === 1 ? "default" : "outline"}>
                                     Choose Plan
                                 </Button>
                             </CardFooter>

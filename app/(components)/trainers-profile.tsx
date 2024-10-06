@@ -36,17 +36,23 @@ export default function TrainersProfiles() {
                 <p className="text-xl text-gray-600 text-center mb-12">Our certified trainers are here to help you achieve your fitness goals</p>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {trainers.map((trainer, index) => (
-                        <Card key={index} className="flex flex-col h-full">
-                            <CardHeader>
-                                <div className="relative w-full h-64 mb-4">
-                                    <Image src={trainer.image} alt={trainer.name} layout="fill" objectFit="cover" className="rounded-t-lg" />
+                        <div key={index} className="flex flex-col h-full shadow-lg rounded-lg flex-wrap">
+                            <div>
+                                <div className="relative w-full h-64 mb-4 overflow-hidden">
+                                    <Image
+                                        src={trainer.image}
+                                        alt={trainer.name}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        className="rounded-t-lg absolute inset-0 transition-transform duration-300 ease-in-out transform hover:scale-110"
+                                    />
                                 </div>
-                                <CardTitle>{trainer.name}</CardTitle>
-                                <CardDescription>{trainer.specialty}</CardDescription>
-                            </CardHeader>
-                            <CardContent className="flex-grow">
+                            </div>
+                            <div className="p-3 flex-grow">
+                                <h1>{trainer.name}</h1>
+                                <p>{trainer.specialty}</p>
                                 <p className="text-gray-600">{trainer.bio}</p>
-                            </CardContent>
+                            </div>
                             {/* <CardFooter className="flex justify-center space-x-4">
                                 <Button variant="ghost" size="icon" asChild>
                                     <a href={trainer.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
@@ -67,7 +73,7 @@ export default function TrainersProfiles() {
                                     </a>
                                 </Button>
                             </CardFooter> */}
-                        </Card>
+                        </div>
                     ))}
                 </div>
             </div>

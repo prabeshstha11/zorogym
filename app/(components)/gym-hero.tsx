@@ -46,9 +46,9 @@ export default function GymHero() {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 right-0 hidden lg:block">
-                <Image src="/placeholder.svg?height=400&width=400" alt="Fitness enthusiast" width={400} height={400} className="opacity-70" />
-            </div>
+            {/* <div className="absolute bottom-0 right-0 hidden lg:block">
+                <Image src="/fitness.jpg" alt="Fitness enthusiast" width={400} height={400} className="opacity-70" />
+            </div> */}
         </section>
     );
 }
