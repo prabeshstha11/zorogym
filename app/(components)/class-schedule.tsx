@@ -8,57 +8,57 @@ const classSchedule = [
     {
         day: "Monday",
         classes: [
-            { name: "Yoga Flow", time: "07:00 AM", duration: "60 min", instructor: "Emma" },
-            { name: "HIIT", time: "12:00 PM", duration: "45 min", instructor: "John" },
-            { name: "Spin Class", time: "06:00 PM", duration: "45 min", instructor: "Sarah" },
+            { name: "Yoga Flow", time: "07:00 AM", duration: "60 min", instructor: "Vivi" },
+            { name: "HIIT", time: "12:00 PM", duration: "45 min", instructor: "Katakuri" },
+            { name: "Spin Class", time: "06:00 PM", duration: "45 min", instructor: "Viola" },
         ],
     },
     {
         day: "Tuesday",
         classes: [
-            { name: "Strength Training", time: "08:00 AM", duration: "60 min", instructor: "Mike" },
-            { name: "Pilates", time: "01:00 PM", duration: "45 min", instructor: "Lisa" },
+            { name: "Strength Training", time: "08:00 AM", duration: "60 min", instructor: "Captain Kuro" },
+            { name: "Pilates", time: "01:00 PM", duration: "45 min", instructor: "Papaji" },
             { name: "Zumba", time: "07:00 PM", duration: "60 min", instructor: "Carlos" },
         ],
     },
     {
         day: "Wednesday",
         classes: [
-            { name: "CrossFit", time: "06:30 AM", duration: "60 min", instructor: "Alex" },
-            { name: "Yoga Flow", time: "12:00 PM", duration: "60 min", instructor: "Emma" },
-            { name: "Boxing", time: "06:30 PM", duration: "45 min", instructor: "Tony" },
+            { name: "CrossFit", time: "06:30 AM", duration: "60 min", instructor: "Buggy" },
+            { name: "Yoga Flow", time: "12:00 PM", duration: "60 min", instructor: "Vivi" },
+            { name: "Boxing", time: "06:30 PM", duration: "45 min", instructor: "Bepo" },
         ],
     },
     {
         day: "Thursday",
         classes: [
-            { name: "HIIT", time: "07:00 AM", duration: "45 min", instructor: "John" },
-            { name: "Pilates", time: "01:00 PM", duration: "45 min", instructor: "Lisa" },
-            { name: "Spin Class", time: "06:00 PM", duration: "45 min", instructor: "Sarah" },
+            { name: "HIIT", time: "07:00 AM", duration: "45 min", instructor: "Katakuri" },
+            { name: "Pilates", time: "01:00 PM", duration: "45 min", instructor: "Papaji" },
+            { name: "Spin Class", time: "06:00 PM", duration: "45 min", instructor: "Viola" },
         ],
     },
     {
         day: "Friday",
         classes: [
-            { name: "Strength Training", time: "08:00 AM", duration: "60 min", instructor: "Mike" },
-            { name: "Yoga Flow", time: "12:00 PM", duration: "60 min", instructor: "Emma" },
+            { name: "Strength Training", time: "08:00 AM", duration: "60 min", instructor: "Captain Kuro" },
+            { name: "Yoga Flow", time: "12:00 PM", duration: "60 min", instructor: "Vivi" },
             { name: "Zumba", time: "07:00 PM", duration: "60 min", instructor: "Carlos" },
         ],
     },
     {
         day: "Saturday",
         classes: [
-            { name: "CrossFit", time: "09:00 AM", duration: "60 min", instructor: "Alex" },
-            { name: "Boxing", time: "11:00 AM", duration: "45 min", instructor: "Tony" },
-            { name: "Yoga Flow", time: "04:00 PM", duration: "60 min", instructor: "Emma" },
+            { name: "CrossFit", time: "09:00 AM", duration: "60 min", instructor: "Buggy" },
+            { name: "Boxing", time: "11:00 AM", duration: "45 min", instructor: "Bepo" },
+            { name: "Yoga Flow", time: "04:00 PM", duration: "60 min", instructor: "Vivi" },
         ],
     },
     {
         day: "Sunday",
         classes: [
-            { name: "Spin Class", time: "10:00 AM", duration: "45 min", instructor: "Sarah" },
-            { name: "Pilates", time: "12:00 PM", duration: "45 min", instructor: "Lisa" },
-            { name: "HIIT", time: "04:00 PM", duration: "45 min", instructor: "John" },
+            { name: "Spin Class", time: "10:00 AM", duration: "45 min", instructor: "Viola" },
+            { name: "Pilates", time: "12:00 PM", duration: "45 min", instructor: "Papaji" },
+            { name: "HIIT", time: "04:00 PM", duration: "45 min", instructor: "Katakuri" },
         ],
     },
 ];
